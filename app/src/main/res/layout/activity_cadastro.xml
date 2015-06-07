@@ -24,7 +24,7 @@
     <FrameLayout
 
         android:layout_width="150dp"
-        android:layout_height="230dp"
+        android:layout_height="150dp"
         android:layout_gravity="center_horizontal|bottom">
 
         <Button
@@ -38,18 +38,20 @@
             />
     </FrameLayout>
 
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:id="@+id/imageView"
-        android:layout_gravity="center_horizontal|top"
-        android:src="@mipmap/ic_launcher" />
-
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="260dp"
-        android:layout_height="303dp"
-        android:layout_gravity="center">
+        android:layout_width="249dp"
+        android:layout_height="467dp"
+        android:layout_gravity="center_horizontal|top"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="92dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="0.24" />
 
         <TextView
             android:layout_width="256dp"
