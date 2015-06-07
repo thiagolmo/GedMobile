@@ -72,6 +72,6 @@
             android:layout_gravity="center"
             style="@android:style/ButtonBar"
             android:background="#F44336"
-            android:onClick="onClick" />
+             />
     </FrameLayout>
 </FrameLayout>

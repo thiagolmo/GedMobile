@@ -16,7 +16,8 @@
             android:id="@+id/button2"
             android:layout_gravity="center_horizontal|top"
             style="@android:style/ButtonBar"
-            android:background="#F44336" />
+            android:background="#F44336"
+            android:onClick="onEntrar" />
 
         <Button
             android:layout_width="207dp"
@@ -65,7 +66,8 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="32dp"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:onClick="onClick"/>
     </RelativeLayout>
 
     <FrameLayout

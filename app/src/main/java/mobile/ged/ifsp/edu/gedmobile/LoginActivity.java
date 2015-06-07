@@ -39,10 +39,5 @@ public class LoginActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onClick (View v) {
-        //Intent i = new Intent();
-        //i.setClass(this,HeloActivity.class);
-        //startActivity(i);
 
-    }
 }
