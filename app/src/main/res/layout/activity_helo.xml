@@ -12,11 +12,11 @@
         <Button
             android:layout_width="226dp"
             android:layout_height="wrap_content"
-            android:text="ACEITAR E CONTINUAR"
+            android:text="ENTRAR"
             android:id="@+id/button2"
             android:layout_gravity="center_horizontal|top"
             style="@android:style/ButtonBar"
-            android:background="#F44336"
+            android:background="#F2501D"
             android:onClick="onEntrar" />
 
         <Button
@@ -26,7 +26,21 @@
             android:id="@+id/button3"
             android:layout_gravity="center"
             style="@android:style/ButtonBar"
-            android:background="#F44336" />
+            android:background="#F2501D" />
+
+        <FrameLayout
+            android:layout_width="235dp"
+            android:layout_height="216dp"
+            android:layout_gravity="left|bottom">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="   Power By JTG Softwares"
+                android:textColor="@android:color/darker_gray"
+                android:id="@+id/textView3"
+                android:layout_gravity="left|bottom" />
+        </FrameLayout>
     </FrameLayout>
 
     <GridLayout
@@ -34,66 +48,59 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
-        <TextView
-            android:layout_width="338dp"
-            android:layout_height="43dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="      Ao utilizar este aplicativo, você concorda com nossos"
-            android:id="@+id/textView2"
-            android:layout_alignBottom="@+id/textView3"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_gravity="right|bottom"
-            android:layout_row="8"
-            android:layout_column="1" />
     </GridLayout>
 
     <RelativeLayout
         android:layout_width="180dp"
-        android:layout_height="107dp"
-        android:layout_gravity="right|center_vertical">
+        android:layout_height="19dp"
+        android:layout_gravity="right|center_vertical"
+        >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text=" Termos de Serviço."
-            android:id="@+id/textView3"
-            android:layout_gravity="right|bottom"
-            android:layout_row="4"
-            android:layout_column="9"
-            android:textColor="@android:color/holo_blue_dark"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="32dp"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:onClick="onClick"/>
     </RelativeLayout>
 
-    <FrameLayout
-        android:layout_width="283dp"
-        android:layout_height="242dp"
-        android:layout_gravity="center_horizontal|top">
+    <ImageView
+        android:layout_width="251dp"
+        android:layout_height="251dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="305dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Bem vindo ao Ged Mobile"
+            android:id="@+id/textView"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:gravity="center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Bem-vindo ao GED Mobile"
-            android:id="@+id/textView"
-            android:layout_gravity="center_horizontal|top"
-            android:textStyle="bold"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="108dp" />
+            android:id="@+id/textView4" />
 
-        <ImageView
-            android:layout_width="106dp"
-            android:layout_height="106dp"
-            android:id="@+id/imageView2"
-            android:layout_gravity="center_horizontal|bottom"
-            android:src="@mipmap/ic_launcher" />
-    </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ao utilizar este aplicativo, você concorda com nossos termos de uso"
+            android:id="@+id/textView2"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_row="5"
+            android:layout_column="1"
+            style="@style/AppTheme"
+            android:gravity="center" />
+    </LinearLayout>
 
 
 </FrameLayout>
