@@ -49,11 +49,11 @@
         android:layout_gravity="center_horizontal|top">
 
         <ImageView
-            android:layout_width="149dp"
-            android:layout_height="149dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/imageView"
             android:layout_gravity="center"
-            android:src="@mipmap/ic_logo_ged"
+            android:src="@mipmap/ic_launcher"
             android:nestedScrollingEnabled="false"
             style="@android:style/Animation" />
     </FrameLayout>

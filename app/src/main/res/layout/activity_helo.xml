@@ -90,7 +90,7 @@
             android:layout_height="106dp"
             android:id="@+id/imageView2"
             android:layout_gravity="center_horizontal|bottom"
-            android:src="@mipmap/ic_logo_ged" />
+            android:src="@mipmap/ic_launcher" />
     </FrameLayout>
 
 
