@@ -19,4 +19,9 @@ public class HeloActivity extends Activity {
         startActivity(intent);
 
     }
+    public void onCadastrar (View v) {
+        Intent intent = new Intent(this,CadastroActivity.class);
+        startActivity(intent);
+
+    }
 }

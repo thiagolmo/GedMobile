@@ -26,7 +26,8 @@
             android:id="@+id/button3"
             android:layout_gravity="center"
             style="@android:style/ButtonBar"
-            android:background="#F2501D" />
+            android:background="#F2501D"
+            android:onClick="onCadastrar" />
 
         <FrameLayout
             android:layout_width="235dp"
